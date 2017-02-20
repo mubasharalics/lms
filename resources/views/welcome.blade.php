@@ -33,12 +33,22 @@
             .title {
                 font-size: 96px;
             }
+            .title span {
+                font-weight: bold;
+            }
+            .title-prefix {
+                text-align: left;
+                color: green;
+                font-weight: bold;
+                font-size: 24px;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title-prefix">Let's start with latest......</div>
+                <div class="title">Laravel <span>5.4</span></div>
             </div>
         </div>
     </body>
